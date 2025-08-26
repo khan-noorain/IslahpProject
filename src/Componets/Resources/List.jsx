@@ -3,7 +3,7 @@ import React from 'react'
 function List() {
   return (
     <>
-  <div className="p-[50px] pt-[80px]">
+  <div className="p-[40px] pt-[80px] mr-50">
   <p className="text-center text-2xl pb-[50px]">
     Ready to Use. Designed for Action.
   </p>

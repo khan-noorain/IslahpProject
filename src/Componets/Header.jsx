@@ -3,12 +3,11 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
   const navItems = [
-      { name: "home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Programs", path: "/programs" },
-    { name: "Get Involved", path: "/get-involved" },
+    { name: "About", path: "/#" },
+    { name: "Programs", path: "/#" },
+    { name: "Get Involved", path: "/#" },
     { name: "Resources", path: "/resources" },
-    { name: "Contact", path: "/contact" },
+    { name: "Contact", path: "/#" },
   ];
 
   return (

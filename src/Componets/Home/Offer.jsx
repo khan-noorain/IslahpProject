@@ -1,69 +1,61 @@
 import React from 'react'
-
+import Rectangle from '../../assets/Rectangle.svg'
 
 function Offer() {
   return (
-   <>
-   <div className='h-180 w-full'>
-        <p className='text-center pt-10'>What We Offer</p>
-        <p className='text-center text-3xl font-bold'>Our Programs</p>
-        <div>
-            <div className='flex pt-30 ml-80'>
-      <div className=' bg-[#E8F9FF] h-[400px] w-[290px] rounded-2xl ml-[50px]'>
-    <div className='bg-[#f6f2f2] h-[150px] w-[230px] ml-6 mt-3 rounded-[20px]'>
-    </div>
-      <div className='w-[250] text-left ml-5 mt-5'>
-            <p className='text-xl pb-2'>Residential Workshop</p>
-    <p className='text-sm pb-10' >3-day intensive to awaken conscience, develop strategy, and build ethical political presence.</p>
+    <>
+      <div className="h-auto w-full py-10">
+        <p className="text-center text-lg">What We Offer</p>
+        <p className="text-center text-3xl font-bold mb-10">Our Programs</p>
 
-        <p className='bg-[white] text-[#C5BAFF] pl-[3px] border text-center rounded-full p-3'>Read Article→</p>
+        <div className="flex justify-center gap-10 ">
+          <div className="bg-[#E8F9FF] h-[350px] w-[290px] rounded-2xl shadow-md hover:bg-blue-200 transition duration-300">
+            <div className="flex justify-center pt-6">
+              <img src={Rectangle} alt="Example" className="w-60 h-60 -mt-14 -mb-10" />
+            </div>
+            <div className="px-5 mt-4">
+              <p className="text-xl font-semibold mb-2">Residential Workshop</p>
+              <p className="text-sm mb-4 text-[#707070]">
+                3-day intensive to awaken conscience, develop strategy, and build ethical political presence.
+              </p>
+              <p className=" text-black border text-center rounded-full py-1 cursor-pointer">
+                Learn More
+              </p>
+            </div>
+          </div>
 
-    </div>
-   </div>
-   
+ <div className="bg-[#E8F9FF] h-[350px] w-[290px] rounded-2xl shadow-md hover:bg-blue-200 transition duration-300">
+            <div className="flex justify-center pt-6">
+              <img src={Rectangle} alt="Example" className="w-60 h-60 -mt-14 -mb-10" />
+            </div>
+            <div className="px-5 mt-4">
+              <p className="text-xl font-semibold mb-2">Online Learning Series</p>
+              <p className="text-sm mb-4 text-[#707070]">
+                Explore Constitution, political communication, and Islamic thought - all online.
+              </p>
+              <p className=" text-black border text-center rounded-full py-1 cursor-pointer">
+               Learn More
+              </p>
+            </div>
+          </div>
 
- <div className='h-[400px] w-[250px]  ml-[50px]'>
-    <div className='bg-[#E8F9FF] h-[150px] w-[250px] rounded-[20px]'>
-    </div>
-      <div className='w-[250] text-left'>
-    
-    <div className='flex'>
-    <img src='#'/>
-    <span className="text-[#C5BAFF] p-[1]">Article</span>
-    </div>
-
-    <p className='text-sm' >Reclaiming Our Voice: A Muslim Youth's Guide to Public Life</p>
-      <p className='text-xs text-[#707070] '>Why we can't afford silence anymore and how inner clarity leads to outer courage.</p>
-
-        <p className='bg-[white] text-[#C5BAFF] pl-[3px] pt-[20px]'>Read Article→</p>
-
-    </div>
-   </div>
-
-    <div className='h-[400px] w-[250px]  ml-[50px]'>
-    <div className='bg-[#E8F9FF] h-[150px] w-[250px] rounded-[20px]'>
-    </div>
-      <div className='w-[250] text-left'>
-    
-    <div className='flex'>
-    <img src='#'/>
-    <span className="text-[#C5BAFF] p-[1]">Article</span>
-    </div>
-
-    <p className='text-sm' >Reclaiming Our Voice: A Muslim Youth's Guide to Public Life</p>
-      <p className='text-xs text-[#707070] '>Why we can't afford silence anymore and how inner clarity leads to outer courage.</p>
-
-
-          <p className='bg-[white] text-[#C5BAFF] pl-[3px] pt-[20px]'>Read Article→</p>
-    
-    </div>
-   </div>
-
-   </div>
-
+           <div className="bg-[#E8F9FF] h-[350px] w-[290px] rounded-2xl shadow-md hover:bg-blue-200 transition duration-300">
+            <div className="flex justify-center pt-6">
+              <img src={Rectangle} alt="Example" className="w-60 h-60 -mt-14 -mb-10" />
+            </div>
+            <div className="px-5 mt-4">
+              <p className="text-xl font-semibold mb-2">Immersion Program</p>
+              <p className="text-sm mb-4 text-[#707070]">
+                Visit bastis, Parliament, and grassroots communities. Learn where power lives - and where it fails.
+              </p>
+              <p className=" text-black border text-center rounded-full py-1 cursor-pointer">
+                Learn More
+              </p>
+            </div>
+          </div>         
         </div>
-   </div>
-   </>
+      </div>
+    </>
   )
 }
 

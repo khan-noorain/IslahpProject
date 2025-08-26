@@ -4,8 +4,8 @@ import List from './List'
 function Categories() {
   return (
    <>
-      <div className='flex '>
-      <div className='mt-[50px] ml-[20px] flex'>
+      <div className='flex ml-10 '>
+      <div className='mt-[50px]  flex'>
           <div className='bg-[#E8F9FF] h-[300px] w-[250px] text-left '>
               <h5 className='m-[20px] text-left font-bold text-l pt-[60px] '>Articles & Reflections</h5>
                 <ul className='pt-[-5px] ml-[20px] pb-[30px]'>
@@ -50,8 +50,6 @@ function Categories() {
    </div>
 
    </div>
-
-   <List/>
    </>
   )
 }

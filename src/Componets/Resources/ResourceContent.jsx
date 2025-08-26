@@ -4,6 +4,7 @@ import Carts from './Carts'
 function ResourceContent() {
   return (
     <>
+    <div className='mt-50 justify-center ml-20'>
       <div className="bg-[#E8F9FF] h-[250px] w-[1000px] rounded-[20px] text-left pl-[20px] pt-[30px] ">
     
     <div className='m-[20px] '>
@@ -22,7 +23,7 @@ function ResourceContent() {
       </div>
   </div>
 
- 
+ </div>
     </>
   )
 }

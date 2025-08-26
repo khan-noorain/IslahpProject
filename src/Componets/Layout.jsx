@@ -22,7 +22,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "./Header";
-// import Footer from "./Footer"; // you can uncomment when ready
+import Footer from "./Footer";
 
 const Layout = () => {
   return (
@@ -37,12 +37,11 @@ const Layout = () => {
         <Outlet /> {/* renders the matched route component */}
       </main>
 
-      {/* Footer (optional, uncomment when needed) */}
-      {/* 
+       
       <footer className="bg-gray-100 py-4 text-center text-sm">
         <Footer />
       </footer> 
-      */}
+     
     </div>
   );
 };
